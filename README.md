@@ -1,5 +1,7 @@
 # JavaScript-Fundamentals
 
+-------------------------------------------
+
 # readme syntax
 
 - Use # for headings. 
