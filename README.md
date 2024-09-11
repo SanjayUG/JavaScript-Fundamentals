@@ -6,3 +6,13 @@
 - Just write text normally for paragraphs.
 - For multiple line code, wrap the text in backticks ```code lines (used -> ```)```.
 - To create a hyperlink, use [link text](URL).
+
+# common Git commit message prefixes
+
+- feat: A new feature
+- fix: A bug fix
+- style: Changes that do not affect the meaning of the code
+- test: Adding or correcting tests
+- docs: Documentation only changes
+- revert: Reverting a previous commit
+- merge: Merging branches
