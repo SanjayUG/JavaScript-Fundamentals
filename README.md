@@ -1,8 +1,10 @@
 # JavaScript-Fundamentals
-<<<<<<< HEAD
 
+-------------------------------------------
 
-=======
+# readme syntax
 
-## just for fun
->>>>>>> 32e00d49ed2a165789c22520ed2d8f037cfd9747
+- Use # for headings. 
+- Just write text normally for paragraphs.
+- For multiple line code, wrap the text in backticks ```.
+- To create a hyperlink, use [link text](URL).
