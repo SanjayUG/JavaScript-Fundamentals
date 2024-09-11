@@ -17,7 +17,10 @@ const url = new String("www.microsoft.com"); // here String is an object with (k
 // console.log(url.toUpperCase());
 // console.log(url.toLowerCase());
 // console.log(url.charAt(4));
+
 // console.log(url.indexOf('m'));
+// console.log(url.at(7));
+// console.log(url.at(-3));
 
 // console.log(url.substring(0, 4));
 // console.log(url.substring(-1, 2)); // output: ww, because: if negative value then it starts from 0 index
@@ -28,6 +31,9 @@ const url = new String("www.microsoft.com"); // here String is an object with (k
 // console.log(url.replace("com", "in"));
 // console.log(url.includes("ram")); // output: flase
 // console.log(url.split(".")); // output: [ 'www', 'microsoft', 'com' ]
+
+console.log(url.repeat(3));
+
 
 // ----
 
