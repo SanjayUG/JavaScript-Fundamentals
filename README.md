@@ -4,5 +4,5 @@
 
 - Use # for headings. 
 - Just write text normally for paragraphs.
-- For multiple line code, wrap the text in backticks ``` ```code lines``` ```.
+- For multiple line code, wrap the text in backticks ```code lines```.
 - To create a hyperlink, use [link text](URL).
