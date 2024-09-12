@@ -24,7 +24,8 @@ let id = null; // object
 
 // ----
 
-// PRIMITIVE dataType
+// PRIMITIVE dataType. stored in a STACK
+// it gives a copy of variable 
 
 // 1. number => 2^53
 // 2. bigint
@@ -35,7 +36,8 @@ let id = null; // object
 // 7. symbol => unique and immutable, used to identify object
 
 
-// Non Primitive dataType
+// Non Primitive dataType. stored in HEAP
+// it gives reference of variable 
 
 // 1. array
 // 2. objects
