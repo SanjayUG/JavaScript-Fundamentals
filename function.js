@@ -137,3 +137,8 @@
 
 //})("mongodb");
 
+(() => {
+    const privateData = "KRISHNA is the highest secret."
+    console.log(privateData);
+    
+})()
