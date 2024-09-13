@@ -78,3 +78,47 @@
 
 // console.log(firstElement(arr));
 // console.log(firstElement([2, 3, 4, 7, 16, 16, 108]));
+
+// ----------------------------------------------------------------
+
+// console.log(this); //output: {}
+
+// function foo() {
+//     let username = "KRISHNA"
+//     console.log(this.username);
+// }
+
+// // foo(); // output: undefined
+
+
+// const funTest1 = function() {
+//     let username = "KRISHNA"
+//     console.log(this.username);
+// }
+
+// // funTest1(); // output: undefined
+
+// const funTest2 = () => {
+//     let username = "KRISHNA"
+//     console.log(this.username);
+// }
+
+// // funTest2(); // output: undefined
+
+// ----
+
+// const sum = (a, b) => {
+//     return a + b; // returns expelectly
+// }
+
+// const sum = (a, b) => a + b;
+
+// const sum = (a, b) => (a + b); // returns implectly
+
+// console.log(sum(1, 5));
+
+// ----
+
+// const name = () => ({userName: "KRISHNA"})
+
+// console.log(name());
