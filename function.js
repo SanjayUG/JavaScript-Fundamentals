@@ -122,3 +122,18 @@
 // const name = () => ({userName: "KRISHNA"})
 
 // console.log(name());
+
+// --------------------------------------------------
+
+// ----
+
+// iife(immediately invoked function expression)
+
+//(function connectDB(dbName) {
+//    const dbId = "abc123";
+//    console.log(`${dbName} DataBase connected`);
+//    console.log(`Your DataBase ID: ${dbId}`);
+    
+
+//})("mongodb");
+
