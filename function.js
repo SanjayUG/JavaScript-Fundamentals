@@ -128,6 +128,10 @@
 // ----
 
 // iife(immediately invoked function expression)
+/*
+    1. Doesn't pollute the global scope
+    2. Self-executing
+*/
 
 //(function connectDB(dbName) {
 //    const dbId = "abc123";
