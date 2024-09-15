@@ -338,27 +338,28 @@ const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // ----
 
-const shoppingCart = [
-    {
-        itemName: "js course",
-        price: 2999
-    },
-    {
-        itemName: "py course",
-        price: 999
-    },
-    {
-        itemName: "mobile dev course",
-        price: 5999
-    },
-    {
-        itemName: "backendd course",
-        price: 12999
-    },
-]
+// const shoppingCart = [
+//     {
+//         itemName: "js course",
+//         price: 2999
+//     },
+//     {
+//         itemName: "py course",
+//         price: 999
+//     },
+//     {
+//         itemName: "mobile dev course",
+//         price: 5999
+//     },
+//     {
+//         itemName: "backendd course",
+//         price: 12999
+//     },
+// ]
 
-const totalBill = shoppingCart.reduce((accum, item) => {
-    return accum + item.price;
-}, 0)
+// const totalBill = shoppingCart.reduce((accum, item) => {
+//     return accum + item.price;
+// }, 0)
 
-console.log(totalBill);
+// console.log(totalBill);
+

@@ -80,6 +80,14 @@
 
 // ----------------------------------------------------------------------------
 
+// console.log(2 && "ajay") // output: ajay
+// console.log(0 && "ajay") //output: 0
+// console.log(45 && 0 && "third") //output: 0
+// console.log(45 && " " && "third") // output: third
+// console.log(45 && " " && "third" && "fourth") // output: fourty
+
+// ----------------------------------------------------------------------------
+
 // Terniary Operator
 
 let a = 10;
