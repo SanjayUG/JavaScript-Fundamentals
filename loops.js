@@ -56,6 +56,34 @@
                                    
 //}
 
+// -------------------------------------------------------------------
+
+// while and do...while
+
+//let i = 0;
+//while(i<10) {
+//    console.log(`index: ${i}`);
+//    i = i + 2;
+//}
+
+// ----
+
+//let fruits = ['mango', "orange", "pears"];
+
+//let i = 0;
+//while(i < fruits.length) {
+//    console.log(`${fruits[i]}`);
+//    i = i + 1;
+//}
+
+// ----
+
+//let score = 11
+
+//do {
+//    console.log(`Score is ${score}`);
+//    score++;
+//}while(score <= 10);
 
 // ---------------------------------------------------------------------
 
@@ -142,4 +170,37 @@
 // }
 
 // -------------------------------------------------------------------------------
+
+// for...of
+
+// ["", "", ""]
+// [{}, {}, {}]
+
+//const arr = [1, 2, 3, 4, 5];
+
+//for(const num of arr) {
+//    console.log(num);
+//}
+
+// ----
+
+//const chant = "HARE KRISHNA";
+//for(const char of chant) {
+//    console.log(`${char}`);
+//}
+
+// ----
+
+const map = new Map();
+
+map.set('IN', "India");
+map.set('USA', "United States of America");
+map.set('Fr', "France");
+map.set('IN', "India");
+
+//console.log(map);
+
+for (const [key, value] of map) {
+    console.log(key, ':-', value);
+}
 
